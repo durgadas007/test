@@ -1,0 +1,30 @@
+# Useful Git commands
+
+>git clone [repository_url]:
+Clone git repository into local machine.
+
+>git branch [branch_name]
+Create a branch in local machine.
+Make your code changes and add it to stage.
+
+>git add [file_name]
+To add all the changes to stage.
+[file_name] 
+. will add all the changes to staging. Mention [file_name] to add only the particular file to stage.
+
+>git commit
+To commit all the changes added to stage. 
+All the changes added to stage will be commited to the particilar branch.
+
+>git checkout [branch_name]
+To checkout all the changes in the particular branch.
+
+>git log
+To see all the changes in the checkout branch. 
+Change the branch to see all the changes in that branch.
+
+After all the changes are commited in the local code create a pull request with 
+all the details of changes in code.
+
+The admin will review the code and add/reject the branch based on the code changes.
+
